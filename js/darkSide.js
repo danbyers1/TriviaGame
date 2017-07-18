@@ -8,7 +8,7 @@ function initialScreen() {
 
 initialScreen();
 
-//Create a function, generateHTML(), that is triggered by the start button, and generates the HTML seen on the project video...
+//Create a function, generateHTML(), that is triggered by the start button, and generates the HTML 
 
 $("body").on("click", ".start-button", function(event){
 	event.preventDefault();  // added line to test issue on GitHub Viewer
